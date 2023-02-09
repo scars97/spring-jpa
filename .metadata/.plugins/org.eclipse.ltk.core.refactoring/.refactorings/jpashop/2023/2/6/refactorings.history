@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;jpabook.jpashop.MembeRepository&apos; to &apos;MemberRepository&apos;&#x0D;&#x0A;- Original project: &apos;jpashop&apos;&#x0D;&#x0A;- Original element: &apos;jpabook.jpashop.MembeRepository&apos;&#x0D;&#x0A;- Renamed element: &apos;jpabook.jpashop.MemberRepository&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;MembeRepository&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;jpabook.jpashop{MembeRepository.java[MembeRepository" matchStrategy="1" name="MemberRepository" qualified="false" references="true" similarDeclarations="false" stamp="1675948496560" textual="false" version="1.0"/>
+</session>
