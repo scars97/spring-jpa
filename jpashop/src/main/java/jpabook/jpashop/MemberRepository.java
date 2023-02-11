@@ -5,6 +5,8 @@ import javax.persistence.PersistenceContext;
 
 import org.springframework.stereotype.Repository;
 
+import jpabook.jpashop.domain.Member;
+
 @Repository //component가 포함돼있기 때문에 자동으로 Spring Bean에 등록됨.
 public class MemberRepository {
 
