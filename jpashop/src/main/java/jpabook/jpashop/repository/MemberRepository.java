@@ -37,7 +37,7 @@ public class MemberRepository {
 				.getResultList();
 	}
 	
-	public List<Member> findByName(String name){ //이름으로 회원 조회, jqpl 사용
+	public List<Member> findByName(String name){ //이름으로 회원 조회, 객체지향쿼리 jqpl 사용
 		return em.createQuery("select m from Member m where m.name= :name", Member.class)
 				.setParameter("name", name) //m.name과 매치되서 값 들어감
 				.getResultList(); // 결과값 가져오기

@@ -32,7 +32,7 @@ public class MemberService {//실제 작동할 비즈니스 로직
 		return member.getId();// persist하는 순간 pk인 id가 자동으로 넣어짐. 그래서 꺼낼 수 있음.
 	}
 	
-	private void validateDuplicateMember(Member member) {
+	private void validateDuplicateMember(Member member) {//중복회원 검사
 		List<Member> findMembers = memberRepository.findByName(member.getName());
 		if(!findMembers.isEmpty()) {
 			throw new IllegalStateException("이미 존재하는 회원입니다.");

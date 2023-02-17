@@ -1,0 +1,34 @@
+package jpabook.jpashop;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import jpabook.jpashop.domain.item.Item;
+import jpabook.jpashop.repository.itemRepository;
+import jpabook.jpashop.service.ItemService;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class ItemServiceTest {
+
+	@Autowired itemRepository itemRepository;
+	@Autowired ItemService itemService;
+
+	@Test
+	public void 아이템_등록() {
+		//given
+		Item item = new Item();
+		item.setName("테스트 상품");
+		
+		//when
+		Long saveItemId = itemService.saveItem(item);
+		
+		
+		//then
+		
+		
+	}
+}
