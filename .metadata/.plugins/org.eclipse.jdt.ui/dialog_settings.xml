@@ -76,7 +76,7 @@
 		</section>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item key="index" value="2"/>
+		<item key="index" value="1"/>
 	</section>
 	<section name="NewPackageWizardPage">
 		<item key="create_package_info_java" value="false"/>
